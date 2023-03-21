@@ -15,7 +15,7 @@ import Alert from './components/Alert';
 import About from './components/About';
 
 function App() {
-  const [mode,setMode] = useState("light"); // dark mode feature
+  const [mode,setMode] = useState("dark"); // dark mode feature
   const [alert,setAlert] = useState(null); // alert feature
 
   const showAlert = (message,type) => {
